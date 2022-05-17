@@ -1,14 +1,14 @@
-function print(msg) {
+export function print(msg) {
   return console.log(msg)
 };
 
-function printEach(arr) {
+export function printEach(arr) {
   for (const i of arr) {
     print(i)
   }
 };
 
-function printIndex(arr, index) {
+export function printIndex(arr, index) {
   if (index == null) {
     for (const i in arr) {
       print(i)
@@ -18,6 +18,7 @@ function printIndex(arr, index) {
    };
 };
 
-function delIndex(arr, index) {
+export function delIndex(arr, index) {
   return `${arr.slice(0, index)},${arr.slice(index)}`;
 };
+
