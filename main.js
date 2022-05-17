@@ -14,7 +14,7 @@ export function printIndex(arr, index) {
       print(i)
     };
   } else {
-   print(arr.indexOf(arr[index]);
+   print(arr.indexOf(arr[index]));
    };
 };
 
